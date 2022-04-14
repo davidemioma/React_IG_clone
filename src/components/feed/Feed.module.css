@@ -1,0 +1,34 @@
+.container {
+  margin-top: 5rem;
+}
+
+.section_sm {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .feed {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .no_user {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section_lg {
+    width: 70%;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .section_lg::-webkit-scrollbar {
+    display: none;
+  }
+
+  .section_sm {
+    display: block;
+    width: 30%;
+  }
+}

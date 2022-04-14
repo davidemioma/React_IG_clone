@@ -1,0 +1,38 @@
+.profile {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile div {
+  flex-grow: 1;
+}
+
+.profile div h3 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.profile div p {
+  font-size: 0.7rem;
+  color: grey;
+}
+
+.profile button {
+  background: none;
+  color: #6666ff;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 1.5px;
+  border: 2px solid #ff6666;
+}

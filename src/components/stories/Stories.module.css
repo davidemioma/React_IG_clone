@@ -1,0 +1,42 @@
+.stories {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  overflow-x: scroll;
+  background: #fff;
+  padding: 0.7rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.stories::-webkit-scrollbar {
+  display: none;
+}
+
+.profile {
+  display: grid;
+  justify-items: center;
+}
+
+.profile p {
+  width: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+.profile img {
+  padding: 1.5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid #ff6666;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.profile img:hover {
+  transform: scale(1.1);
+}

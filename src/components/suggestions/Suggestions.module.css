@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header p {
+  font-size: 0.7rem;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.header button,
+.profile button {
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile div {
+  flex-grow: 1;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.profile div h3 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.profile div p {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.profile button {
+  color: #6666ff;
+}
+
+.suggestions {
+  display: grid;
+  gap: 0.8rem;
+}

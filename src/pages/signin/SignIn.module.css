@@ -1,0 +1,31 @@
+.signIn {
+  margin-top: 10rem;
+  display: grid;
+  justify-items: center;
+}
+
+.signIn img {
+  width: 200px;
+}
+
+.signIn p {
+  font-style: italic;
+}
+
+.signIn button {
+  margin-top: 5rem;
+  color: #fff;
+  background-color: #6666ff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s ease-out;
+}
+
+.signIn button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

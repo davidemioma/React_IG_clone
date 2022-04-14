@@ -1,0 +1,162 @@
+.posts {
+  padding: 2rem 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.post {
+  background: #fff;
+  border-radius: 6px;
+}
+
+.header,
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.user {
+  gap: 0.5rem;
+}
+
+.user p {
+  font-weight: bold;
+}
+
+.user img {
+  width: 30px;
+  height: 30px;
+  padding: 1.5px;
+  border-radius: 100%;
+  border: 2px solid #ff6666;
+  cursor: pointer;
+}
+
+.header_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.post_img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.icons,
+.icons div {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+}
+
+.icons div {
+  gap: 0.3rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.icon_rotate {
+  transform: rotate(45deg);
+}
+
+.caption {
+  padding: 0.8rem 1rem;
+  display: flex;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.caption p {
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 350px) {
+  .caption p {
+    width: 100px;
+  }
+}
+
+.caption span {
+  font-weight: bold;
+}
+
+.form {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form input,
+.form button {
+  outline: none;
+  border: none;
+}
+
+.form input {
+  flex-grow: 1;
+}
+
+.form button {
+  background: none;
+  color: #6666ff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.comments {
+  padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.comment img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.comment span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-right: 0.2rem;
+}
+
+.time {
+  font-size: 0.8rem;
+}
+
+.comment p {
+  font-size: 0.8rem;
+  flex-grow: 1;
+}
+
+.likes {
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
